@@ -1,2 +1,2 @@
 # LaurelDeletable
-Package, which add trait for deleting manipulating. 
+Package, which add trait for manipulating deleting.
