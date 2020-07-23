@@ -1,0 +1,14 @@
+{
+    "name": "laurel/deletable",
+    "description": "Package, which add trait for manipulating deleting.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prokhorenko Vladyslav",
+            "email": "random.person.1907@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
