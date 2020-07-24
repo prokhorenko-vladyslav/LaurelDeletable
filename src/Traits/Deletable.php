@@ -6,6 +6,9 @@ namespace Laurel\Deletable\Traits;
 
 use Laurel\Deletable\Exceptions\ModelCannotBeDeletedException;
 
+/**
+    Trait for manipulating deleting
+*/
 trait Deletable
 {
     public function deleteIf() : bool
