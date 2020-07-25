@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 
 namespace Laurel\Deletable\Traits;
@@ -16,6 +16,9 @@ trait Deletable
         return true;
     }
 
+    /**
+        Overwrite delete method. Now it use conditiond from deleteIf method
+    */
     public function delete()
     {
         if ($this->deleteIf()) {
